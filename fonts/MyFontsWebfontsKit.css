@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4387288, 2022-02-26T09:10:14-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Sisterhood by Din Studio
+ * URL: https://www.myfonts.com/fonts/din-studio/sisterhood/regular/
+ * Copyright: Sisterhood © dinstudio. 2020 All Rights Reserved
+ * 
+ * 
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/42f1d8");
+  
+@font-face {
+  font-family: "Sisterhood";
+  src: url('webFonts/Sisterhood/font.woff2') format('woff2'), url('webFonts/Sisterhood/font.woff') format('woff');
+}
+

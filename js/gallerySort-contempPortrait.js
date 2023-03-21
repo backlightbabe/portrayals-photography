@@ -1,6 +1,10 @@
-function goToPortraitGallery() {
+document.querySelector(#contempPortrait).addEventListener("click", showContempPortrait);
 
-
+function showContempPortrait() {
+  window.location.href=gallery.html;
+  alert("I'm running your function!");
+  // window.location.href="gallery.html";
+  // document.querySelector(#contempPortBtn).click;
 }
 
 
