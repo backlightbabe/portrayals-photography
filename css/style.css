@@ -1419,13 +1419,13 @@ textarea.style1 {
   opacity: 1;
 } */
 
-.portfolio-item:hover {
+/* .portfolio-item:hover {
   position:absolute;
   transform: scale(1.5);
   transition-timing-function: ease;
   transition: 0.2s;
   z-index: 100;
-}
+} */
 
 .portfolio-item a {
   position: absolute;
