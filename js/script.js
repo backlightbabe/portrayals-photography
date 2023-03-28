@@ -25,7 +25,7 @@ Version:    1.0
 	-Animation
 	-Load more
 	-Coming soon countdown
-	
+
 -------------------------------------------------------------------*/
 
 "use strict";
@@ -100,7 +100,7 @@ jQuery(document).ready(function() {
 			google.maps.event.addDomListener(window, "resize", function() {
 				var center = map.getCenter();
 				google.maps.event.trigger(map, "resize");
-				map.setCenter(center); 
+				map.setCenter(center);
 			});
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
 	/*------------------------------------------------------------------
 	[ Fixed header ]
 	*/
-	
+
 	if(jQuery('.header').hasClass('transperent')){
 		var h_class = 'transperent';
 	}
@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
 	/*------------------------------------------------------------------
 	[ Screen rezise events ]
 	*/
-	
+
 	jQuery(window).on("load resize scroll", function(){
 		jQuery('.fsn-container .cell').css('height', jQuery('.fsn-container').height());
 	});
@@ -224,6 +224,7 @@ jQuery(document).ready(function() {
 	});
 
 	/*------------------------------------------------------------------
+	
 	[ Blog items & filtering ]
 	*/
 	jQuery(window).on("load", function(){
@@ -347,7 +348,7 @@ jQuery(document).ready(function() {
 	/*------------------------------------------------------------------
 	[ Full sreen navigation ]
 	*/
-	
+
 	jQuery(window).on("load resize", function(){
 		jQuery('.full-screen-nav .menu-item-has-children > a').on("click", function(){
 			if(!jQuery(this).hasClass('active')) {
@@ -360,11 +361,11 @@ jQuery(document).ready(function() {
 	/*------------------------------------------------------------------
 	[ Animation ]
 	*/
-	
+
 	jQuery(window).on("load scroll", function(){
 		jQuery('.animateNumber').each(function(){
 			var num = parseInt(jQuery(this).attr('data-num'));
-			
+
 			var top = jQuery(document).scrollTop()+(jQuery(window).height());
 			var pos_top = jQuery(this).offset().top;
 			if (top > pos_top && !jQuery(this).hasClass('active')) {
@@ -385,7 +386,7 @@ jQuery(document).ready(function() {
 	/*------------------------------------------------------------------
 	[ Animation ]
 	*/
-	
+
 	jQuery('.rating-item').find('.line').find('div').css('width', '0%');
 	jQuery(window).on("load scroll", function(){
 		jQuery('.rating-item').each(function(){
