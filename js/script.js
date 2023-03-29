@@ -224,7 +224,7 @@ jQuery(document).ready(function() {
 	});
 
 	/*------------------------------------------------------------------
-	
+
 	[ Blog items & filtering ]
 	*/
 	jQuery(window).on("load", function(){
