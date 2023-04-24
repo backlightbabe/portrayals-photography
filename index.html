@@ -46,6 +46,31 @@
       <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+	<!-- <script>
+		// Version 2 - go to gallery.html and click the "custom portrait" button
+		function openGalleryToCustomPort() {
+
+		  // Get the "custom portrait" button element from the index.html DOM
+		  const btnA = document.getElementByID("customPortrait");
+
+		  // Add a click event listener to the "custom portrait" button in index.html
+		  btnA.addEventListener("click", () => {
+		    //When "custom portrait" is clicked, open gallery.html
+		    window.location.href="gallery.html";
+		// get the "custom portrait" button element from the gallery.html DOM
+		const btnB = document.getElementByID("customPortrait");
+
+		  // Add event listener to the "custom portrait" button in gallery.html
+		  btnB.addEventListener("click", () => {
+		    //Perform some action wheb btnB is clicked
+		    console.log("btnB was clicked!");
+		  });
+
+		});
+		}
+</script> -->
+
 </head>
 
 <body>
@@ -88,7 +113,8 @@
 					<li class="menu-item-has-children">
 						<a href="#">services</a>
 						<ul class="sub-menu">
-							<li><a href="gallery.html">traditional and contemporary fine-art portraiture</a></li>
+							<li><a href="gallery.html">traditional portraiture</a></li>
+							<li><a href="gallery.html">themed/custom fine-art portraiture</a></li>
 							<li><a href="gallery.html">lifestyle family photography</a></li>
 							<li><a href="gallery.html">professional headshots</a></li>
 							<!-- <li><a href="gallery.html">fine art boudoir</a></li> -->
@@ -133,8 +159,8 @@
 					<div class="team-item fw-col-xs-12 fw-col-sm-6 fw-col-md-4" style="background-image: url(imgs/team1.jpg);">
 						<div class="centered-container">
 							<div>
-								<!-- <p style="text-transform: uppercase;">contemporary<br />portrait</p> -->
-								<p id="contempPortrait" style="text-transform: uppercase;"><a href="#" style="text-decoration: none;">contemporary<br />portrait</a></p>
+
+								<p id="customPortrait" class=genre-button style="text-transform: uppercase;"><a href="gallery.html" style="text-decoration: none;">custom<br />portrait</a></p>
 							</div>
 						</div>
 					</div>
@@ -236,6 +262,6 @@
 	<script type="text/javascript" src="js/owl.carousel.js"></script>
 	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="js/gallerySort-contempPortrait.js"></script>
+	<script type="text/javascript" src="js/gallerySort-customPortrait.js"></script>
 </body>
 </html>
