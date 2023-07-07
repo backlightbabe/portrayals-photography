@@ -1,21 +1,25 @@
 <!DOCTYPE HTML>
-<html lang="ru">
+<html lang="en" dir="ltr">
 <head>
 	<meta charset=utf-8>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Stihiya - html template</title>
+	<title>Portrayals Portrait Studio</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<link id="favicon" rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/icon-font.css">
 	<link rel="stylesheet" href="css/social-icons.css">
 	<link rel="stylesheet" href="css/frontend-grid.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;0,500;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
-
-	 <!-- * @license
+	<!-- /**
+	 * @license
 	 * MyFonts Webfont Build ID 4387288, 2022-02-26T09:10:14-0500
 	 *
 	 * The fonts listed in this notice are subject to the End User License
@@ -28,9 +32,13 @@
 	 * URL: https://www.myfonts.com/fonts/din-studio/sisterhood/regular/
 	 * Copyright: Sisterhood © dinstudio. 2020 All Rights Reserved
 	 *
-	 * © 2022 MyFonts Inc -->
+	 * © 2022 MyFonts Inc
+	*/ -->
+	<!-- <link rel="stylesheet" type="text/css" href="fonts\MyFontsWebfontsKit.css"> -->
 
-	<link rel="stylesheet" type="text/css" href="fonts\MyFontsWebfontsKit\MyFontsWebfontsKit.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+	</style>
 
 	<!--[if IE]>
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.0/mootools-yui-compressed.js"></script>
@@ -38,18 +46,45 @@
       <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+	<!-- <script>
+		// Version 2 - go to gallery.html and click the "custom portrait" button
+		function openGalleryToCustomPort() {
+
+		  // Get the "custom portrait" button element from the index.html DOM
+		  const btnA = document.getElementByID("customPortrait");
+
+		  // Add a click event listener to the "custom portrait" button in index.html
+		  btnA.addEventListener("click", () => {
+		    //When "custom portrait" is clicked, open gallery.html
+		    window.location.href="gallery.html";
+		// get the "custom portrait" button element from the gallery.html DOM
+		const btnB = document.getElementByID("customPortrait");
+
+		  // Add event listener to the "custom portrait" button in gallery.html
+		  btnB.addEventListener("click", () => {
+		    //Perform some action wheb btnB is clicked
+		    console.log("btnB was clicked!");
+		  });
+
+		});
+		}
+</script> -->
+
 </head>
+
 <body>
 	<div id="all">
 		<!-- Preloader -->
 		<div id="page-preloader">
-			<div class="spinner centered-container"><img src="images\imgs\logo-frames-only.png" width=80px; /></div>
+			<div class="spinner centered-container"><img src="imgs\logo-frames-only.png" width=80px; />
+			</div>
 		</div>
 		<!-- END Preloader -->
 		<!-- Header -->
 		<header class="header fw-main-row">
 			<div class="fw-container-fluid">
-				<div class="logo"><a href="index.html"><img src="images\imgs\weblogo-sm-notag.png" alt="logo" width="80%" ></a></div>
+				<div class="logo"><a href="index.html"><img src="imgs\weblogo-sm-notag.png" alt="logo" width="80%" ></a></div>
 				<div class="fr">
 					<div class="nav-button full-screen-nav-button">
 						<div></div>
@@ -59,39 +94,46 @@
 		</header>
 		<!-- END Header -->
 
-		<!-- Full screen navigation -->
+		<!-- Full-screen navigation -->
 		<nav class="full-screen-nav">
 			<div class="fsn-container">
 				<ul class="cell">
-					<li class="current-menu-item menu-item-has-children">
+					<li class="current-menu-item">
 						<a href="index.html">home</a>
-							<ul class="sub-menu">
-								<li class="current-menu-item"><a href="about-me.html">Photographer</a></li>
-								<li><a href="agency.html">Studio</a></li>
-								<!-- <li><a href="blog.html">Blog</a></li> -->
-							</ul>
 					</li>
+
+					<li class="menu-item-has-children">
+						<a href="#">about</a>
+						<ul class="sub-menu">
+							<li><a href="about-me.html">the photographer</a></li>
+							<li><a href="studio.html">the studio and pricing</a></li>
+
+						</ul>
+					</li>
+
 					<li class="menu-item-has-children">
 						<a href="#">services</a>
 						<ul class="sub-menu">
-							<li><a href="#">studio portraits</a></li>
-							<li><a href="#">onsite portraits</a></li>
-							<li><a href="#">lifestyle shoots</a></li>
-							<li><a href="#">professional headshots</a></li>
-							<li><a href="#">fine art boudoir</a></li>
+							<li><a href="gallery.html">traditional portraiture</a></li>
+							<li><a href="gallery.html">themed/custom fine-art portraiture</a></li>
+							<li><a href="gallery.html">lifestyle family photography</a></li>
+							<li><a href="gallery.html">professional headshots</a></li>
+							<!-- <li><a href="gallery.html">fine art boudoir</a></li> -->
 						</ul>
 					</li>
-					<li class="menu-item-has-children">
-						<a href="about-me.html">about</a>
+
+					<li class="current-menu-item">
+						<a href="gallery.html">gallery</a>
 					</li>
-					<li class="menu-item-has-children">
-						<a href="masonry-col3.html">gallery</a>
-					</li>
+
 					<li><a href="contact.html">contact me</a></li>
+
 				</ul>
 			</div>
 		</nav>
-		<!-- END Full screen navigation -->
+		<!-- END full-screen navigation -->
+
+
 		<section class="fw-main-row">
 			<div class="fw-container-fluid no-padding">
 				<!-- Banner -->
@@ -100,7 +142,16 @@
 						<div class="centered-container fw-container">
 							<h2 class="uppercase">error 404</h2>
 							<p>
-								Oh shoot! Can't find that page! Please contact our "webmeister" about any broken links.
+								<p>
+									Oh, 📸 shoot! Can't find that page!</p>
+
+									<p>
+										Make sure the website address shown in the browser&rsquo;s address bar is spelled correctly. If everything checks out there, you can click the brower's BACK button to try a different link, use the navigation menu (upper right corner), or click the HOME button below to head back to the landing page.
+								</p>
+
+								<p>
+									Please contact our &ldquo;webmeister&rdquo; about any broken links. Thanks!
+								</p>
 							</p>
 							<a href="index.html" class="button-style3"><span>home</span></a>
 						</div>

@@ -46,6 +46,31 @@
       <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+	<!-- <script>
+		// Version 2 - go to gallery.html and click the "custom portrait" button
+		function openGalleryToCustomPort() {
+
+		  // Get the "custom portrait" button element from the index.html DOM
+		  const btnA = document.getElementByID("customPortrait");
+
+		  // Add a click event listener to the "custom portrait" button in index.html
+		  btnA.addEventListener("click", () => {
+		    //When "custom portrait" is clicked, open gallery.html
+		    window.location.href="gallery.html";
+		// get the "custom portrait" button element from the gallery.html DOM
+		const btnB = document.getElementByID("customPortrait");
+
+		  // Add event listener to the "custom portrait" button in gallery.html
+		  btnB.addEventListener("click", () => {
+		    //Perform some action wheb btnB is clicked
+		    console.log("btnB was clicked!");
+		  });
+
+		});
+		}
+</script> -->
+
 </head>
 
 <body>
@@ -59,7 +84,7 @@
 		<!-- Header -->
 		<header class="header fw-main-row">
 			<div class="fw-container-fluid">
-				<div class="logo"><a href="index.html"><img src="imgs\weblogo-sm-notag.png" alt="logo" width="80%" ></a></div>
+				<!-- <div class="logo"><a href="index.html"><img src="imgs\weblogo-sm-notag.png" alt="logo" width="80%" ></a></div> -->
 				<div class="fr">
 					<div class="nav-button full-screen-nav-button">
 						<div></div>
@@ -81,14 +106,15 @@
 						<a href="#">about</a>
 						<ul class="sub-menu">
 							<li><a href="about-me.html">the photographer</a></li>
-							<li><a href="studio.html">the studio</a></li>
+							<li><a href="studio.html">the studio and pricing</a></li>
 						</ul>
 					</li>
 
 					<li class="menu-item-has-children">
 						<a href="#">services</a>
 						<ul class="sub-menu">
-							<li><a href="gallery.html">traditional and contemporary fine-art portraiture</a></li>
+							<li><a href="gallery.html">traditional portraiture</a></li>
+							<li><a href="gallery.html">themed/custom fine-art portraiture</a></li>
 							<li><a href="gallery.html">lifestyle family photography</a></li>
 							<li><a href="gallery.html">professional headshots</a></li>
 							<!-- <li><a href="gallery.html">fine art boudoir</a></li> -->
@@ -112,8 +138,9 @@
 				<div class="banner full-screen">
 					<div class="item" style="background-image: url(imgs/bannerimg-1c.jpg);">
 						<div class="centered-container fw-container">
-							<h1 class="very-light-brown">portrayals</h1>
-							<p class="very-light-brown">portrait and personal branding photography</p>
+							<!-- <h1 class="very-light-brown">portrayals</h1> -->
+							<div class="logo"><a href="index.html"><img src="imgs\portrayalsRevLogo.svg" alt="logo" width="40%" ></a></div>
+							<p class="very-light-brown">portraits and personal branding</p>
 							<a href="contact.html" class="button-style1"><span class="very-light-brown">get in touch</span></a>
 						</div>
 					</div>
@@ -133,17 +160,17 @@
 					<div class="team-item fw-col-xs-12 fw-col-sm-6 fw-col-md-4" style="background-image: url(imgs/team1.jpg);">
 						<div class="centered-container">
 							<div>
-								<!-- <p style="text-transform: uppercase;">contemporary<br />portrait</p> -->
-								<p id="contempPortrait" style="text-transform: uppercase;"><a href="#" style="text-decoration: none;">contemporary<br />portrait</a></p>
+
+								<p id="customPortrait" class=genre-button style="text-transform: uppercase;"><a href="gallery.html" style="text-decoration: none;">custom<br />portraits</a></p>
 							</div>
 						</div>
 					</div>
 					<!-- END Team item -->
 					<!-- Team item -->
-					<div class="team-item fw-col-xs-12 fw-col-sm-6 fw-col-md-4" style="background-image: url(imgs/team2.jpg);">
+					<div class="team-item fw-col-xs-12 fw-col-sm-6 fw-col-md-4" style="background-image: url(imgs/headshotSample.jpg);">
 						<div class="centered-container">
 							<div>
-								<p style="text-transform: uppercase;">professional<br />headshot</p>
+								<p style="text-transform: uppercase;">professional headshots &amp; <br /> personal branding</p>
 
 							</div>
 						</div>
@@ -153,7 +180,7 @@
 					<div class="team-item fw-col-xs-12 fw-col-sm-6 fw-col-md-4" style="background-image: url(imgs/team3.jpg);">
 						<div class="centered-container">
 							<div>
-									<p style="text-transform: uppercase;">family<br />lifestyle</p>
+									<p style="text-transform: uppercase;">family<br />lifestyle portraits</p>
 							</div>
 						</div>
 					</div>
@@ -218,7 +245,7 @@
 					<div class="fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
 						<!-- Social buttons -->
 						<div class="social-buttons tac">
-							<a href="#"><i class="social-icon-facebook-logo"></i></a>
+							<a href="https://www.facebook.com/profile.php?id=100078952954540" target="_blank"><i class="social-icon-facebook-logo"></i></a>
 							<a href="#"><i class="social-icon-instagram-social-network-logo-of-photo-camera"></i></a>
 							<a href="#"><i class="social-icon-twitter-logo"></i></a>
 
@@ -236,6 +263,6 @@
 	<script type="text/javascript" src="js/owl.carousel.js"></script>
 	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="js/gallerySort-contempPortrait.js"></script>
+	<script type="text/javascript" src="js/gallerySort-customPortrait.js"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="ru">
+
 <head>
 	<meta charset=utf-8>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,6 +40,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
+
 <body class="site-style2">
 	<div id="all">
 		<!-- Preloader -->
@@ -49,7 +51,7 @@
 		<!-- Header -->
 		<header class="header fw-main-row">
 			<div class="fw-container-fluid">
-				<div class="logo"><a href="index.html"><img src="imgs/weblogo-sm-notag.png" alt="logo" width="80%" ></a></div>
+				<div class="logo"><a href="index.html"><img src="imgs/weblogo-sm-notag.png" alt="logo" width="80%"></a></div>
 				<div class="fr">
 					<div class="nav-button full-screen-nav-button">
 						<div></div>
@@ -71,14 +73,16 @@
 						<a href="#">about</a>
 						<ul class="sub-menu">
 							<li><a href="about-me.html">the photographer</a></li>
-							<li><a href="studio.html">the studio</a></li>
+							<li><a href="studio.html">the studio and pricing</a></li>
+
 						</ul>
 					</li>
 
 					<li class="menu-item-has-children">
 						<a href="#">services</a>
 						<ul class="sub-menu">
-							<li><a href="gallery.html">traditional and contemporary fine-art portraiture</a></li>
+							<li><a href="gallery.html">traditional portraiture</a></li>
+							<li><a href="gallery.html">themed/custom fine-art portraiture</a></li>
 							<li><a href="gallery.html">lifestyle family photography</a></li>
 							<li><a href="gallery.html">professional headshots</a></li>
 							<!-- <li><a href="gallery.html">fine art boudoir</a></li> -->
@@ -109,7 +113,8 @@
 					<!-- Portfolio filter -->
 					<div class="filter-button-group tac">
 						<button id="allBtn" class="button-style1 active" data-filter="*">all</button>
-						<button id="contempPortBtn" class="button-style1" data-filter=".contemp-portrait">contemporary portrait</button>
+						<button id="contempPortBtn" class="button-style1" data-filter=".traditional-portrait">traditional portrait</button>
+						<button id="customPortrait" class="button-style1" data-filter=".custom-portrait">custom portrait</button>
 						<button id="headshotsBtn" class="button-style1" data-filter=".headshot">headshots</button>
 						<button id="famLifestyle" class="button-style1" data-filter=".lifestyle"> family lifestyle</button>
 						<!-- <button id="boudoirBtn" class="button-style1" data-filter=".boudoir">fine art boudoir</button> -->
@@ -117,26 +122,55 @@
 					<!-- Portfolio filter -->
 
 					<!-- Portfolio items -->
+
 					<div class="portfolio-items items masonry fw-row">
 
-						<div class="portfolio-item item contemp-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
-							<img src="imgs/gal-contemp_img1.jpg" alt="portrait of a young woman">
+						<div class="portfolio-item item traditional-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/230124_Entry4_bronze.jpg" alt="portrait of a young woman">
 						</div>
 
-						<div class="portfolio-item item contemp-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
-							<img src="imgs/desc_fine-art.jpg" alt="contemporary portrait description">
+						<div class="portfolio-item item custom-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/230124_Entry6_bronze.jpg" alt="portrait of a young woman">
 						</div>
 
-							<div class="portfolio-item item headshot fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+						<div class="portfolio-item item traditional-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/traditional-img6.jpg" alt="portrait of some tango dancers">
+						</div>
+
+						<div class="portfolio-item item custom-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/230124_Entry7_bronze.jpg" alt="portrait of a young woman">
+						</div>
+
+					<div class="portfolio-item item traditional-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/230124_Entry5_bronze.jpg" alt="portrait of a young woman">
+						</div>
+
+						<div class="portfolio-item item custom-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/230124_Entry8_bronze.jpg" alt="portrait of a young woman">
+						</div>
+
+						<div class="portfolio-item item custom-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/gal-custom_img1.jpg" alt="portrait of a young woman">
+						</div>
+
+						<div class="portfolio-item item traditional-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/traditional-img7-bw.jpg" alt="portrait of a young woman">
+						</div>
+
+						<div class="portfolio-item item custom-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/desc_custom.jpg" alt="contemporary portrait description">
+						</div>
+
+						<div class="portfolio-item item headshot fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
 							<img src="imgs/gal-headshot_img1b.jpg" alt="Pro headshot">
 						</div>
 
-						<div class="portfolio-item item headshot contemp-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
-							<img src="imgs/gal-headshot_img2.jpg" alt="Project name">
+						<div class="portfolio-item item headshot custom-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/gal-custom_img2.jpg" alt="Project name">
 						</div>
 
-						<div class="portfolio-item item contemp-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
-							<img src="imgs/gal-contemp_img2.jpg" alt="Project name">
+						<div class="portfolio-item item custom-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/gal-custom_img3.jpg" alt="Project name">
 						</div>
 
 						<div class="portfolio-item item headshot fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
@@ -147,8 +181,8 @@
 							<img src="imgs/desc_headshot.jpg" alt="Headshot description">
 						</div>
 
-						<div class="portfolio-item item contemp-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
-							<img src="imgs/gal-contemp_img6.jpg" alt="Project name">
+						<div class="portfolio-item item traditional-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+							<img src="imgs/traditional-portrait_img2.jpg" alt="Project name">
 						</div>
 
 						<div class="portfolio-item item lifestyle fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
@@ -167,12 +201,12 @@
 							<img src="imgs/gal-headshot_img4.jpg" alt="Project name">
 						</div>
 
-						<div class="portfolio-item item contemp-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+						<div class="portfolio-item item custom-portrait fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
 							<img src="imgs/gal-contemp_img3.jpg" alt="Project name">
 						</div>
 
 						<div class="portfolio-item item headshot fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
-							<img src="imgs/gal-headshot_img5.jpg" alt="Headshot of a businessman">
+							<img src="imgs/traditional-port_img1.jpg" alt="Headshot of a businessman">
 						</div>
 
 						<div class="portfolio-item item lifestyle fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
@@ -202,7 +236,9 @@
 						<div class="portfolio-item item headshot fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
 							<img src="imgs/gal-headshot_img9.jpg" alt="Toddler holding grandmother's hands">
 						</div>
-				</div>
+
+
+					</div>
 					<!-- END Portfolio items -->
 				</div>
 			</div>
@@ -221,7 +257,7 @@
 					<!-- Icon box -->
 					<div class="icon-box fw-col-xs-12 fw-col-sm-6">
 						<div class="icon"><i class="icon-font-mail-5"></i></div>
-						<p style="font-size: 1.2rem; font-weight: 700;">Email:<br/><a href="mailto:polly@portrayals-photography.com">polly@portrayals-photography.com</a></p>
+						<p style="font-size: 1.2rem; font-weight: 700;">Email:<br /><a href="mailto:polly@portrayals-photography.com">polly@portrayals-photography.com</a></p>
 					</div>
 					<!-- END Icon box -->
 					<!-- Icon box -->
@@ -258,7 +294,7 @@
 					<div class="fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
 						<!-- Social buttons -->
 						<div class="social-buttons tac">
-							<a href="#"><i class="social-icon-facebook-logo"></i></a>
+							<a href="https://www.facebook.com/profile.php?id=100078952954540" target="_blank"><i class="social-icon-facebook-logo"></i></a>
 							<a href="#"><i class="social-icon-instagram-social-network-logo-of-photo-camera"></i></a>
 							<a href="#"><i class="social-icon-twitter-logo"></i></a>
 
@@ -278,4 +314,5 @@
 	<script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
