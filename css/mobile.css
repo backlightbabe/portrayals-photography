@@ -22,6 +22,19 @@
 	  transform: scale(1);
 	}
 
+/* .item .hero-img {
+	max-width: 600px;
+	background-size: auto;
+} */
+
+.banner .item {
+  background-size: cover;
+	max-height: 600px;
+  background-position: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
 	input.style1,
 textarea.style1 {
 	margin-bottom: 10px;
@@ -94,7 +107,12 @@ textarea.style1 {
 
 @media screen and (max-width: 640px){
 	body {
-		font-size: 12px;
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 1rem;
+		line-height: 3.5rem;
 	}
 
 	.header {
@@ -103,7 +121,11 @@ textarea.style1 {
 
 .fsn-container {}
 
-	.banner .item h1 {
+.banner .item {
+	height: 600px;
+}
+
+.banner .item h1 {
     font-size: 2.4em;
 }
 
@@ -119,5 +141,6 @@ textarea.style1 {
 	border: none;
 	}
 }
+
 @media screen and (max-width: 380px){
 }
