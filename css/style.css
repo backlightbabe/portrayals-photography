@@ -469,9 +469,100 @@ h6,
     color: #f8f3ed;
 }
 
+.dark-brown {
+  color: #f8f3ed;
+}
+
 /*------------------------------------------------------------------
 [1.2. Buttons ]
 */
+.button-style1a {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  position: relative;
+  line-height: 50px;
+  text-align: center;
+  padding: 0 15px;
+  margin: 0 -15px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+.button-style1a+.button-style1a {
+  margin-left: 50px;
+}
+
+.button-style1a span {
+  position: relative;
+  z-index: 1;
+}
+
+.button-style1a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border: 3px solid #603912;
+  width: 50px;
+  z-index: 0;
+  opacity: .15;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.button-style1a:hover:after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .button-style1 {
   font-size: 20px;
   text-transform: uppercase;
@@ -526,6 +617,7 @@ h6,
 }
 
 .button-style1 i,
+.button-style1a,
 .button-style2 i,
 .button-style3 i {
   margin: -9px 0;
