@@ -67,6 +67,9 @@ Version:    1.0
         3.20 Post bottom, .post-bottom
         3.21 Comments
         4.22 Countdown, .countdownHolder
+
+        5.00 Div height (Added by pthrall)
+        5.1 Min div height 100 vh
     4 Footer
         4.1 Footer navigation, .icon-box
 
@@ -2745,3 +2748,10 @@ textarea.style1 {
 .site-style2 .footer-nav ul li:hover a {
   color: #b3b3b3;
 }
+
+/*--------------------------------------------------------------------
+[5.0 Polly's adjustments
+*/
+
+
+
