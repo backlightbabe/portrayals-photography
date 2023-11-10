@@ -2720,6 +2720,7 @@ textarea.style1 {
 }
 
 .footer-nav ul {
+  line-height: 1.5rem;
   margin: 0;
   padding: 0;
 }
@@ -2731,6 +2732,7 @@ textarea.style1 {
 
 .footer-nav ul li:not(:last-of-type) {
   border-right: 1px solid;
+  max-height: 1rem;
 }
 
 .footer-nav ul li ul {
@@ -2750,8 +2752,7 @@ textarea.style1 {
 }
 
 /*--------------------------------------------------------------------
-[5.0 Polly's adjustments
-*/
+
 
 
 
