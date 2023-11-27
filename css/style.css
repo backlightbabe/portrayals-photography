@@ -111,6 +111,12 @@ a {
   color: inherit;
 }
 
+.hidden-mobile {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
 img {
   border: none;
 }
@@ -531,38 +537,6 @@ h6,
 .button-style1a:hover:after {
   width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
