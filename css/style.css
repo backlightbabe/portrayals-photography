@@ -80,16 +80,16 @@ Version:    1.0
 /*------------------------------------------------------------------
 [1.2. Fonts ]
 */
-/*
+
 font-family: 'Playfair Display SC', serif;
-*/
-/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i'); */
+
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i'); 
 /*
 font-family: 'Lato', sans-serif;
 */
 /* @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i'); */
 /*
-font-family: 'Josefin Slad', serif;
+font-family: 'Playfair', serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
 
@@ -102,9 +102,9 @@ aside, nav, footer, header, section {
 
 body {
   margin: 0;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   font-size: 16px;
-  color: #362e2c;
+  color: #4d4d4d;
 }
 
 a {
@@ -131,7 +131,7 @@ input, textarea, button, select, a {
 
 input, textarea, button, select {
   color: #362e2c;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
 }
 
 input::-webkit-input-placeholder {
@@ -231,21 +231,21 @@ textarea:-ms-input-placeholder {
 }
 
 .dark-overlay {
-  background-color: #c69c6c;
+  background-color: #4d4d4d;
   color: #fff;
 }
 
 .dark-overlay2 {
-  background-color: #362e2c;
+  background-color: #4d4d4d;
   color: #fff;
 }
 
 .site-style2 .dark-overlay {
-  background-color: #c69c6c;
+  background-color: #4d4d4d;
 }
 
 .site-style2 .dark-overlay2 {
-  background-color: #362e2c;
+  background-color: #c6c48b;
   color: #fff;
 }
 
@@ -263,7 +263,7 @@ blockquote {
 }
 
 blockquote .h5 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   font-style: normal;
   margin-bottom: 0;
 }
@@ -342,7 +342,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin: 20px 0;
-  color: #362e2c;
+  color: #4d4d4d;
 }
 
 .dark-bg h1, .dark-bg .h1,
@@ -443,7 +443,7 @@ h6,
 } */
 
 .heading-decor {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   /* text-transform: uppercase; */
   overflow: hidden;
 }
@@ -471,7 +471,7 @@ h6,
 
 .heading-decor.line h5 {
   font-weight: 300;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
 }
 
 .very-light-brown {
@@ -490,7 +490,7 @@ h6,
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   font-weight: bold;
   position: relative;
   line-height: 50px;
@@ -545,7 +545,7 @@ h6,
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   font-weight: bold;
   position: relative;
   line-height: 50px;
@@ -854,7 +854,7 @@ textarea.style1 {
 }
 
 #page-preloader .spinner {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   font-weight: 700;
   font-size: 4em;
   height: 1.5em;
@@ -1142,8 +1142,8 @@ textarea.style1 {
 */
 .header .logo,
 .footer-logo {
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.875em;
+  font-family: 'Playfair', serif;
+  font-size: 1em;
   color: #484848;
   font-weight: 700;
   float: left;
@@ -1230,8 +1230,7 @@ textarea.style1 {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: #fff;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(212, 159, 147, 0.6);
   z-index: 20;
   display: none;
 }
@@ -1268,10 +1267,10 @@ textarea.style1 {
 }
 
 .full-screen-nav .fsn-container>ul>li>a {
-  color: #362e2c;
+  color: #4d4d4d;
   position: relative;
   font-size: 3.000em;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   /* text-transform: uppercase; */
   display: inline-block;
   line-height: 1.2em;
@@ -1308,7 +1307,7 @@ textarea.style1 {
 }
 
 .full-screen-nav .fsn-container>ul>li.current-menu-item>a {
-  color: #000000;
+  color: #fff;
 }
 
 .full-screen-nav ul li ul.sub-menu,
@@ -1343,7 +1342,7 @@ textarea.style1 {
 
 .full-screen-nav ul li ul.sub-menu li.menu-item-has-children>a:after {
   /*content: "\ea00";*/
-  font-family: 'Josefin';
+  font-family: 'Playfair', serif;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1389,7 +1388,7 @@ textarea.style1 {
 }
 
 .banner .item h1 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   font-size: 5rem;
 }
 
@@ -1626,7 +1625,7 @@ textarea.style1 {
 
 .category-item a {
   display: block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   text-decoration: none;
   font-weight: bold;
   height: 215px;
@@ -1716,7 +1715,7 @@ textarea.style1 {
 }
 
 .pricelist-item .price1 {
-  background: rgba(155, 134, 115, 0.5);
+  background: rgba(242, 224, 155, 0.5);
   text-align: center;
   border: 3px solid #e7e7e8;
   position: absolute;
@@ -1724,7 +1723,7 @@ textarea.style1 {
   right: 15px;
   font-weight: bold;
   font-size: 3.000em;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   line-height: 89px;
   color: #fff;
   padding: 0 16px;
@@ -1732,7 +1731,7 @@ textarea.style1 {
 }
 
 .pricelist-item .price2 {
-  background: rgba(198, 156, 108, 0.5);
+  background: rgba(212, 159, 147, 0.5);
   text-align: center;
   border: 3px solid #e7e7e8;
   position: absolute;
@@ -1740,7 +1739,7 @@ textarea.style1 {
   right: 15px;
   font-weight: bold;
   font-size: 3.000em;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   line-height: 89px;
   color: #fff;
   padding: 0 16px;
@@ -1748,7 +1747,7 @@ textarea.style1 {
 }
 
 .pricelist-item .price3 {
-  background: rgba(217, 187, 181, 0.5);
+  background: rgba(198, 196, 139, 0.5);
   text-align: center;
   border: 3px solid #e7e7e8;
   position: absolute;
@@ -1756,7 +1755,7 @@ textarea.style1 {
   right: 15px;
   font-weight: bold;
   font-size: 3.000em;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   line-height: 89px;
   color: #fff;
   padding: 0 16px;
@@ -1856,7 +1855,7 @@ textarea.style1 {
   right: 10px;
   z-index: 2;
   text-decoration: none;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.250em;
@@ -2097,7 +2096,7 @@ textarea.style1 {
 }
 
 .icon-box3 .text {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   text-transform: uppercase;
   text-align: left;
 }
@@ -2247,7 +2246,7 @@ textarea.style1 {
 
 .team-item h3 {
   margin: 0 0 0;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   text-transform: uppercase;
   line-height: 34px;
   color: #fff;
@@ -2552,7 +2551,7 @@ textarea.style1 {
 
 .comment-items .comment-item .text h5 {
   margin: 0 0;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair', serif;
   text-transform: uppercase;
 }
 
