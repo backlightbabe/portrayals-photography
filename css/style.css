@@ -406,6 +406,10 @@ h2, .h2 {
   font-weight: 900;
 }
 
+.heading-decor h2 {
+  font-size: 2.5em;
+}
+
 h3,
 .h3 {
   font-size: 2.250em;
@@ -437,10 +441,6 @@ h6,
   line-height: 1em;
   font-weight: 900;
 }
-
-/* .genre-button {
-  padding-top: 10px;
-} */
 
 .heading-decor {
   font-family: 'Playfair', serif;
@@ -854,8 +854,8 @@ textarea.style1 {
 }
 
 #page-preloader .spinner {
-  font-family: 'Playfair', serif;
-  font-weight: 700;
+  /* font-family: 'Playfair', serif;
+  font-weight: 700; */
   font-size: 4em;
   height: 1.5em;
   padding: 0 0.5em;
@@ -1267,7 +1267,7 @@ textarea.style1 {
 }
 
 .full-screen-nav .fsn-container>ul>li>a {
-  color: #4d4d4d;
+  color: #fff;
   position: relative;
   font-size: 3.000em;
   font-family: 'Playfair', serif;
@@ -1314,7 +1314,7 @@ textarea.style1 {
 .full-screen-nav ul li ul.children {
   display: none;
   font-weight: bold;
-  color: #9b8673;
+  color: #fff;
   font-size: 1.500em;
 }
 
@@ -2218,8 +2218,8 @@ textarea.style1 {
 }
 
 .team-item:hover .centered-container {
-  top: 145px;
-  bottom: 145px;
+  top: 40%;
+  bottom: 40%;
 }
 
 .team-item .centered-container>div {
