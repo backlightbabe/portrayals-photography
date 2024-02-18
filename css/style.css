@@ -401,6 +401,10 @@ h1, .h1 {
   .logo {
     width: 200px;
   }
+
+ .header .fw-main-row {
+  margin-top: 0;
+ }
 }
 
 h2, .h2 {
