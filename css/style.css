@@ -397,6 +397,10 @@ h1, .h1 {
     line-height: 1.667em;
     font-weight: 500;
   }
+
+  .logo {
+    width: 200px;
+  }
 }
 
 h2, .h2 {
@@ -1157,6 +1161,9 @@ textarea.style1 {
 }
 
 .header .logo img {}
+
+
+
 
 /*------------------------------------------------------------------
 [2.2 Navigation button, .nav-button ]
